@@ -46,8 +46,8 @@
     "postcss-easy-import": "^3.0.0",
     "postcss-loader": "^2.0.8",
     "raw-loader": "^0.5.1",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
     "react-headroom": "^2.2.2",
     "react-syntax-highlighter": "^5.8.0",
     "sass-loader": "^6.0.6"
