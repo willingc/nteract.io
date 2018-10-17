@@ -22,7 +22,8 @@ const HomeHeader = (props: OSProps) => (
   <PageHeader themeColor={themeColor}>
     <PageHeaderLeft>
       <h1>
-        nteract and create with <br />data, words, and visuals.
+        nteract and create with <br />
+        data, words, and visuals.
       </h1>
       <p>
         Fire up this desktop application and develop engaging documents with
@@ -50,8 +51,8 @@ const HomeHeader = (props: OSProps) => (
         poster="https://nteract.github.io/assets/images/nteract_app_demo@2x.png"
         preload="auto"
         loop="loop"
-        autoPlay="true"
-        muted="true"
+        autoPlay={true}
+        muted={true}
       >
         <source
           src="https://nteract.github.io/assets/images/video/nteract_app_demo@2x.mp4"
@@ -119,8 +120,8 @@ const Main = () => (
           <p>
             nteract is completely open-source and licensed under the BSD
             3-Clause License. We love getting pull requests and issues from our
-            users; if you're interested in opening one, check out our contributor
-            documentation.
+            users; if you're interested in opening one, check out our
+            contributor documentation.
           </p>
         </div>
         <div className="pane-50 pane">
